@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #2B372A;
+  color: #000000;
+}
+
+.input-groove {
+  @apply border-2 border-gray-200 focus:border-[#FF771F] focus:ring-[#FF771F] rounded-lg px-4 py-2;
+}
+
+.card {
+  @apply bg-white rounded-lg shadow-lg p-6;
+}
+
+.section-title {
+  @apply text-2xl font-bold text-white mb-6;
+}
